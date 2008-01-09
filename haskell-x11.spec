@@ -12,6 +12,7 @@ BuildRoot: %_tmppath/%name-%version-%release-root
 BuildRequires: haskell-macros
 BuildRequires: ghc
 BuildRequires: haddock
+BuildRequires: X11-devel
 
 %description
 A Haskell binding to the X11 graphics library.
