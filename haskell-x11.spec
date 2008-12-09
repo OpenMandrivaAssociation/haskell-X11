@@ -1,8 +1,8 @@
 %define module X11
 
 Name: haskell-%{module}
-Version: 1.4.1
-Release: %mkrel 5
+Version: 1.4.5
+Release: %mkrel 1
 Summary: A binding to the X11 graphics library
 Group: Development/Other
 License: BSD3
