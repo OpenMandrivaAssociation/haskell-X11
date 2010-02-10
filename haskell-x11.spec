@@ -2,7 +2,7 @@
 
 Name: haskell-%{module}
 Version: 1.4.6.1
-Release: %mkrel 1
+Release: %mkrel 2
 Summary: A binding to the X11 graphics library
 Group: Development/Other
 License: BSD3
@@ -13,6 +13,9 @@ BuildRequires: haskell-macros
 BuildRequires: ghc
 BuildRequires: haddock
 BuildRequires: X11-devel
+Requires: ghc
+Requires(preun): ghc
+Requires(post): ghc
 
 %description
 A Haskell binding to the X11 graphics library.
