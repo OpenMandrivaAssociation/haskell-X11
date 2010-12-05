@@ -2,7 +2,7 @@
 
 Name: haskell-%{module}
 Version: 1.4.6.1
-Release: %mkrel 2
+Release: %mkrel 3
 Summary: A binding to the X11 graphics library
 Group: Development/Other
 License: BSD3
