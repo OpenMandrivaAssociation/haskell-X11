@@ -12,7 +12,7 @@ BuildRoot: %_tmppath/%name-%version-%release-root
 BuildRequires: haskell-macros
 BuildRequires: ghc
 BuildRequires: haddock
-BuildRequires: X11-devel
+BuildRequires: libx11-devel
 Requires: ghc
 Requires(preun): ghc
 Requires(post): ghc
