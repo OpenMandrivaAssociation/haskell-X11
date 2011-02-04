@@ -13,6 +13,8 @@ BuildRequires: haskell-macros
 BuildRequires: ghc
 BuildRequires: haddock
 BuildRequires: libx11-devel
+BuildRequires: libxinerama-devel
+BuildRequires: x11-proto-devel
 Requires: ghc
 Requires(preun): ghc
 Requires(post): ghc
