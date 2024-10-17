@@ -6,7 +6,7 @@ Release: %mkrel 3
 Summary: A binding to the X11 graphics library
 Group: Development/Other
 License: BSD3
-Url: http://hackage.haskell.org/cgi-bin/hackage-scripts/package/%{module}
+Url: https://hackage.haskell.org/cgi-bin/hackage-scripts/package/%{module}
 Source: http://hackage.haskell.org/cgi-bin/hackage-scripts/package/%{module}/%{module}-%{version}.tar.gz
 BuildRoot: %_tmppath/%name-%version-%release-root
 BuildRequires: haskell-macros
